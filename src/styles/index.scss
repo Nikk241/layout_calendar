@@ -17,6 +17,7 @@ body {
   --gap-size: 1px;
   --column-size: calc(var(--day-cell-size) + var(--gap-size));
 
+  padding: var(--padding-size);
   display: flex;
   flex-wrap: wrap;
   width: calc((var(--column-size) * var(--number-of-columns)));
@@ -74,5 +75,5 @@ $start-day: (
   cursor: pointer;
   background-color: #ffbfcb;
   transform: translate(0, -20px);
-  animation-duration: 0.5s;
+  transition-duration: 0.5s;
 }
