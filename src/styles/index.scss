@@ -17,7 +17,6 @@ body {
   --gap-size: 1px;
   --column-size: calc(var(--day-cell-size) + var(--gap-size));
 
-  padding: var(--padding-size);
   display: flex;
   flex-wrap: wrap;
   width: calc((var(--column-size) * var(--number-of-columns)));
